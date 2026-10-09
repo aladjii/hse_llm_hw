@@ -1,0 +1,9 @@
+{
+  "attention": "sdpa",
+  "seconds": 90,
+  "train": {
+    "use_liger_kernel": true,
+    "output_dir": "results/liger"
+  },
+  "note": "liger kernels (fused RMSNorm/SwiGLU/CrossEntropy)"
+}

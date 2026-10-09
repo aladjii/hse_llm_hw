@@ -1,0 +1,12 @@
+{
+  "attention": "sdpa",
+  "seconds": 90,
+  "train": {
+    "gradient_checkpointing": true,
+    "output_dir": "results/grad_ckpt"
+  },
+  "note": "activation checkpointing",
+  "config_overrides": {
+    "gradient_checkpointing": true
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "attention": "sdpa",
+  "seconds": 90,
+  "train": {
+    "packing": true,
+    "output_dir": "results/packing"
+  },
+  "note": "sequence packing (bfd) — убирает паддинг-пустоту"
+}

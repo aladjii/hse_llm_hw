@@ -1,0 +1,9 @@
+{
+  "attention": "flash_attention_2",
+  "seconds": 90,
+  "train": {
+    "activation_offloading": true,
+    "output_dir": "results/offload_fa2"
+  },
+  "note": "offloading активаций + FA2 (без attn_bias, обход бага SDPA-пути)"
+}

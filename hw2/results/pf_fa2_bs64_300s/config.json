@@ -1,0 +1,16 @@
+{
+  "attention": "flash_attention_2",
+  "seconds": 300.0,
+  "train": {
+    "padding_free": true,
+    "per_device_train_batch_size": 64,
+    "gradient_accumulation_steps": 1,
+    "output_dir": "results/pf_fa2_bs64_300s"
+  },
+  "note": "padding-free + FA2 + микробатч 64",
+  "config_overrides": {
+    "padding_free": true,
+    "per_device_train_batch_size": 64,
+    "gradient_accumulation_steps": 1
+  }
+}

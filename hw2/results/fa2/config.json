@@ -1,0 +1,9 @@
+{
+  "attention": "flash_attention_2",
+  "seconds": 90,
+  "train": {
+    "output_dir": "results/fa2"
+  },
+  "note": "FlashAttention-2 вместо SDPA",
+  "config_overrides": {}
+}

@@ -1,0 +1,9 @@
+{
+  "attention": "flash_attention_2",
+  "seconds": 90,
+  "train": {
+    "padding_free": true,
+    "output_dir": "results/padding_free"
+  },
+  "note": "padding-free батчи через position_ids (требует FA2)"
+}

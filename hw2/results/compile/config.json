@@ -1,0 +1,9 @@
+{
+  "attention": "sdpa",
+  "seconds": 300,
+  "train": {
+    "torch_compile": true,
+    "output_dir": "results/compile"
+  },
+  "note": "torch.compile (динамический паддинг даёт разные длины -> рекопиляции)"
+}

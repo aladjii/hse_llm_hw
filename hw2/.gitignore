@@ -1,0 +1,13 @@
+# данные (готовятся train.py: prepare_data) и логи раннера — не коммитим
+data/
+logs/
+
+# артефакты python/jupyter
+__pycache__/
+.ipynb_checkpoints/
+
+# в results коммитим только метрики ранов
+results/**
+!results/**/
+!results/**/summary.json
+!results/**/config.json

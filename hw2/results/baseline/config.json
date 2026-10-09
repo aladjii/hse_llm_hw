@@ -1,0 +1,9 @@
+{
+  "attention": "sdpa",
+  "seconds": 90,
+  "train": {
+    "output_dir": "results/baseline"
+  },
+  "note": "шаблон: bs32 x accum2, SDPA, без оптимизаций",
+  "config_overrides": {}
+}

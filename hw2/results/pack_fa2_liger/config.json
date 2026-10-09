@@ -1,0 +1,10 @@
+{
+  "attention": "flash_attention_2",
+  "seconds": 90,
+  "train": {
+    "packing": true,
+    "use_liger_kernel": true,
+    "output_dir": "results/pack_fa2_liger"
+  },
+  "note": "packing + FA2 + liger"
+}
