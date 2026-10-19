@@ -1,0 +1,5 @@
+data/
+__MACOSX/
+outputs/full_sft/
+.ipynb_checkpoints/
+__pycache__/

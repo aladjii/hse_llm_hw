@@ -1,0 +1,5 @@
+model,lang,tool_set_accuracy,exact_match
+base,en,0.75,0.55
+base,ru,0.75,0.2
+sft,en,1.0,0.975
+sft,ru,1.0,0.95
