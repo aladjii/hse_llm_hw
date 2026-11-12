@@ -1,0 +1,8 @@
+{
+  "base_revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+  "model": "/gpfs/fs1/DATA/HFs/Qwen3.5-2B",
+  "adapter": "/gpfs/fs1/home/adzhiev.alim/rl_bundle/hw5/runs/dr_grpo_shaped/adapter",
+  "adapter_config_sha256": "c1318fcc378e1b80f553a4d3a4598ed1feb896dbbe4e9b5a172975a25e80219d",
+  "merged": true,
+  "dtype": "bfloat16"
+}

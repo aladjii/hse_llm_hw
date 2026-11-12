@@ -1,0 +1,8 @@
+{
+  "criterion": "maximum ToolACE validation reward; BFCL not used for selection",
+  "best_checkpoint": "runs/dr_grpo_shaped/checkpoint-250",
+  "best_metric": 0.5805757093185093,
+  "last_step": 300,
+  "adapter": "adapter",
+  "loaded_best_at_end": true
+}

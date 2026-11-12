@@ -1,0 +1,62 @@
+{
+  "dataset": "Team-ACE/ToolACE",
+  "revision": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+  "seed": 42,
+  "validation_fraction": 0.1,
+  "raw_dialogues": 11300,
+  "source_sha256": "ba12c083fca7e8da48c67ad5b895e495447da7c66e39a2e19742c082e6cb537e",
+  "rejected_dialogues": 629,
+  "train_prompts_matching_validation_removed": 5,
+  "rejection_reasons": {
+    "invalid syntax (<unknown>, line 1)": 70,
+    "unsupported tool description format": 518,
+    "expression cannot contain assignment, perhaps you meant \"==\"? (<unknown>, line 1)": 31,
+    "ambiguous or overlong tool name": 4,
+    "positional argument follows keyword argument (<unknown>, line 1)": 3,
+    "duplicate dialogue": 3
+  },
+  "splits": {
+    "train": {
+      "examples": 10647,
+      "dialogues": 9624,
+      "kinds": {
+        "call": 8574,
+        "no_call": 2073
+      },
+      "tool_counts": {
+        "6": 1307,
+        "4": 1398,
+        "5": 1378,
+        "3": 1713,
+        "2": 1720,
+        "1": 2496,
+        "0": 221,
+        "7": 223,
+        "8": 164,
+        "9": 27
+      },
+      "sha256": "fab12a17e3dcada631c31571a2c935cba0c714682f1dc3562d3c51786e34cce5"
+    },
+    "validation": {
+      "examples": 1149,
+      "dialogues": 1042,
+      "kinds": {
+        "call": 932,
+        "no_call": 217
+      },
+      "tool_counts": {
+        "5": 148,
+        "3": 188,
+        "4": 174,
+        "6": 128,
+        "2": 156,
+        "1": 281,
+        "8": 20,
+        "0": 27,
+        "7": 26,
+        "9": 1
+      },
+      "sha256": "e82cdf9fe2532191b92bae21feae149d3401946d733aff6dbdea51099c82c149"
+    }
+  }
+}

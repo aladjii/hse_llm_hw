@@ -1,0 +1,24 @@
+{
+  "python": "3.12.3",
+  "platform": "Linux-6.8.0-1064-nvidia-x86_64-with-glibc2.39",
+  "libc": [
+    "glibc",
+    "2.39"
+  ],
+  "versions": {
+    "torch": "2.11.0",
+    "vllm": "0.22.0",
+    "transformers": "5.17.0",
+    "trl": "1.16.0",
+    "datasets": "5.0.1",
+    "peft": "0.21.2",
+    "bfcl-eval": "2026.3.23",
+    "numpy": "2.3.5"
+  },
+  "torch_cuda": "13.0",
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "gpu_memory_gib": 79.2222900390625,
+  "benchmark_sha256": "b257ffe2c539897123706ed2211f9ad0e68b8f8fbad7b523ba5a3fcca2a457b2",
+  "evaluate_sha256": "62411a6f1bd790bd54f27fb09e567075b5b27510d126ebe145e72b8319abc7b6",
+  "reward_and_official_ast_smoke": "passed"
+}

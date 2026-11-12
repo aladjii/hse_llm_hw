@@ -1,0 +1,11 @@
+__pycache__/
+.venv/
+data/raw/
+data/prepared/*.jsonl
+.cache/
+logs/
+checkpoints/
+work/
+runs/*/checkpoint-*/
+runs/*/adapter/
+*.tar.gz

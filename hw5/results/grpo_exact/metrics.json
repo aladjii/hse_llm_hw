@@ -1,0 +1,65 @@
+{
+  "overall": 0.7386666666666667,
+  "groups": {
+    "simple": 0.74,
+    "multiple": 0.7933333333333333,
+    "parallel": 0.54,
+    "parallel_multiple": 0.84,
+    "irrelevance": 0.78
+  },
+  "categories": {
+    "simple": {
+      "correct": 37,
+      "total": 50,
+      "accuracy": 0.74
+    },
+    "multiple": {
+      "correct": 63,
+      "total": 75,
+      "accuracy": 0.84
+    },
+    "live_multiple": {
+      "correct": 56,
+      "total": 75,
+      "accuracy": 0.7466666666666667
+    },
+    "parallel": {
+      "correct": 27,
+      "total": 50,
+      "accuracy": 0.54
+    },
+    "parallel_multiple": {
+      "correct": 42,
+      "total": 50,
+      "accuracy": 0.84
+    },
+    "irrelevance": {
+      "correct": 21,
+      "total": 25,
+      "accuracy": 0.84
+    },
+    "live_irrelevance": {
+      "correct": 18,
+      "total": 25,
+      "accuracy": 0.72
+    }
+  },
+  "model": "./checkpoints/grpo_exact",
+  "base_revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+  "benchmark_sha256": "b257ffe2c539897123706ed2211f9ad0e68b8f8fbad7b523ba5a3fcca2a457b2",
+  "decoding": {
+    "temperature": 0,
+    "max_new_tokens": 1024,
+    "enable_thinking": false,
+    "seed": 42
+  },
+  "versions": {
+    "numpy": "2.3.5",
+    "vllm": "0.22.0",
+    "transformers": "5.17.0",
+    "torch": "2.11.0",
+    "trl": "1.16.0",
+    "bfcl-eval": "2026.3.23"
+  },
+  "elapsed_seconds": 59.4
+}
